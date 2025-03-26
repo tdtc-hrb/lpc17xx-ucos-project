@@ -44,7 +44,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\DebugInFlash\</OutputDirectory>
-          <OutputName>TerminalV07</OutputName>
+          <OutputName>TerminalV08</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
@@ -485,6 +485,11 @@
               <FileName>ucos_ii.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\ucos\Source\ucos_ii.h</FilePath>
+            </File>
+            <File>
+              <FileName>os_tmr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\ucos\Source\os_tmr.c</FilePath>
             </File>
           </Files>
         </Group>
