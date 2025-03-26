@@ -44,7 +44,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\DebugInFlash\</OutputDirectory>
-          <OutputName>TerminalV06</OutputName>
+          <OutputName>TerminalV07</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
@@ -422,9 +422,9 @@
               <FilePath>..\ucos\Ports\os_cpu_c.c</FilePath>
             </File>
             <File>
-              <FileName>os_debug.c</FileName>
+              <FileName>os_dbg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\ucos\Ports\os_debug.c</FilePath>
+              <FilePath>..\ucos\Ports\os_dbg.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -530,6 +530,16 @@
               <FileName>app.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\App\app.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Readme</GroupName>
+          <Files>
+            <File>
+              <FileName>Readme.txt</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Readme.txt</FilePath>
             </File>
           </Files>
         </Group>
